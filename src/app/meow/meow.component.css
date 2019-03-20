@@ -1,0 +1,16 @@
+app-meow { /* is this really accepted? */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+div img {
+   display: hidden;
+}
+div img::after {
+	font-size: 2em;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+   content: 'Unicorns is dead. Unicorns remains dead. And we have killed them.'
+}

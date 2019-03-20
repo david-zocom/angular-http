@@ -1,0 +1,9 @@
+<div>
+	<h1>Random Cat Generator</h1>
+	<div>
+		<button (click)="dropItRightMeow()">Generate cat!</button> <br/>
+
+		<span *ngIf="!catUrl">Please click to generate a cat. In the meantime: 🦄 </span>
+		<img *ngIf="catUrl" [src]="catUrl" />
+	</div>
+</div>
